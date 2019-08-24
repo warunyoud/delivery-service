@@ -33,6 +33,14 @@ Now, the site ca be accessed at:
 
 #### `localhost:5000`
 
+## Testing
+
+To test the server simply run
+
+#### `npm run test`
+
+Please note that the criterias are taken from problem statement with serveral added tests.
+
 ## Documentations
 
 Since in the real life situation, the graph (the delivery map) would be stored on the server not the client, it is important to have a database to store these structures. Thus, apart from the 3 use cases, the api must also support the get query to obtain all the graph options as well as the ability to post new graph. Since the web app does not require constant connection, simple API calls are utilized.
