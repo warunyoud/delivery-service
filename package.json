@@ -1,0 +1,18 @@
+{
+  "name": "eko_delivery_service",
+  "version": "1.0.0",
+  "description": "for handling routes in delivery service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jasmine"
+  },
+  "author": "Warunyou (Boom) Dej-Udom",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jasmine": "^3.4.0",
+    "mongodb": "^3.3.0"
+  }
+}
