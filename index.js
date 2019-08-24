@@ -18,7 +18,8 @@ const {
   storeCheapestCost
 } = require('./access.js');
 
-const url = 'mongodb://localhost:27017';
+const url = process.env.NODE_ENV==='production' ? 'mongodb://mongo:27017'
+  : 'mongodb://localhost:27017';
 const dbName = 'test';
 
 app.use(bodyParser.json());

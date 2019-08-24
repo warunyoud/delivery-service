@@ -1,10 +1,12 @@
 {
-  "name": "eko_delivery_service",
+  "name": "delivery_service",
   "version": "1.0.0",
   "description": "for handling routes in delivery service",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "NODE_ENV=development node index.js",
+    "start:prod" : "NODE_ENV=production node index.js",
+    "build": "cd client && npm run build",
     "test": "jasmine"
   },
   "author": "Warunyou (Boom) Dej-Udom",
